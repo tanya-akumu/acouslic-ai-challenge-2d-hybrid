@@ -62,7 +62,7 @@ This project uses a modified version of nnUNet. The modifications are located in
 
 1. Install nnUNet as per their instructions: [nnUNet Installation Guide](https://github.com/MIC-DKFZ/nnUNet#installation)
 2. Replace the original dataloader file with our modified version:
-   `cp nnunet_modifications/data_loader_2d_binary.py /path/to/nnUNet/installation/nnunet/training/dataloading/dataloader_2d.py`
+   `cp nnunet_modifications/data_loader_2d_hybrid.py /path/to/nnUNet/installation/nnunet/training/dataloading/dataloader_2d.py`
 
 3. The main modifications are in the sampling strategy to only include class 1 (optimal) and class 2 (suboptimal) frames in the training.
 
