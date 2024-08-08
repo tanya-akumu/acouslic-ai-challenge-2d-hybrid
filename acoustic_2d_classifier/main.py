@@ -1,3 +1,14 @@
+# """
+# The following is a the training code for running the hybrid algorithm.
+
+# It is meant to run within a container.
+
+# To run it locally, you can call the following bash script:
+
+#   ./run_train.sh
+
+# """
+
 import os
 import argparse
 import traceback
